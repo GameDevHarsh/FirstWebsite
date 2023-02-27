@@ -1,0 +1,222 @@
+html, body {
+    height: 100%;
+    justify-content: center;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 150%;
+    line-height: 1.4;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(213, 236, 253);
+}
+
+.Top-Container {
+    position: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100rem;
+    height: 4.6rem;
+    background-color: rgb(125, 202, 233);
+    z-index: 3;
+}
+#logo {
+    padding: 1rem;
+    width: 5.5rem;
+    max-height: 4.5rem;
+}
+#gradiant
+{
+    position:relative;
+    background: linear-gradient(to right bottom, blue , darkblue,skyblue, rgb(244, 218, 210),rgb(239, 189, 173));
+    width: 100vw;
+    height: 6rem;
+}
+.NavBar {
+    position: relative;
+    height: 3.4rem;
+    padding: 15px;
+    color: orangered;
+    text-decoration: none;
+}
+.NavBar p{
+    font-size: 18px;
+    margin-top: 1.65rem;
+    text-align: left;
+}
+.NavBar:hover
+{
+background-color: rgb(248, 176, 165);
+color: white;
+cursor: pointer;
+}
+main {
+    margin-top: 0px;
+    height: 1900px;
+    color: black;
+}
+    main p {
+        max-width: 900px;
+        margin: 1rem auto;
+    }
+#slider {
+    margin: -20px;
+    overflow: hidden;
+    z-index:2;
+}
+#slider figure {
+    width: 400%;
+    position: relative;
+    animation: 14s slider infinite;
+}
+    #slider figure img 
+{
+    width: 100vw;
+    height: 16rem;
+    margin-top: -.16rem;
+ }
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    23% {
+        left: -100%;
+    }
+
+    43% {
+        left: -100%;
+    }
+
+    46% {
+        left: -200%;
+    }
+
+    66% {
+        left: -200%;
+    }
+
+    70% {
+        left: -300%;
+    }
+    90%
+    {
+        left:-300%;
+    }
+    100%
+    {
+        left:0%;
+    }
+
+}
+h1
+{
+ margin-left: 6rem;
+ font-size: 43px;
+}
+
+h2
+{
+font-size:22px;
+margin-left: 6rem;
+}
+ul
+{
+font-weight: lighter;
+}
+h3
+{
+margin-left: 5.5rem;
+}
+.Top-Container ul {
+padding: 0;
+list-style: none;
+background: inherit;
+}
+.Top-Container ul li {
+display: inline-block;
+position: relative;
+line-height: 21px;
+text-align: left;
+}
+ul li a {
+font-weight: 380;
+text-align: left;
+font-size: 18px;
+display: block;
+padding: 8px 25px;
+color: black;
+text-decoration: none;
+}
+ul li a:hover {
+background-color: white;
+color: rgb(95, 95, 95);
+
+}
+ul li ul.dropdown {
+min-width: 100%; /* Set width of the dropdown */
+background: #f2f2f2;
+display: none;
+position: absolute;
+z-index: 999;
+left: 0;
+}
+ul li:hover ul.dropdown {
+display: block; /* Display the dropdown */
+}
+ul li ul.dropdown li {
+display: block;
+}
+.Content-wrapper {
+position: relative;
+z-index: 1;
+padding: 1.2rem;
+background-color: rgb(254, 218, 213);
+margin-top: -1.5rem;
+border-radius: 1rem;
+width: 60%;
+margin-left: 12rem;
+float: left;
+box-shadow: 12px 12px 50px rgba(8, 8, 12, 0.3);
+}
+.Creator-Detail {
+z-index: 1;
+padding: 1.2rem;
+background-color: white;
+margin-top: 1rem;
+border-radius: 1rem;
+width: 14%;
+float: left;
+margin-left: 2rem;
+box-shadow: 12px 12px 50px rgba(8, 8, 12, 0.3);
+}
+.Table
+{
+width: 100%;
+text-align: center;
+}
+.Table p{
+margin-top: -3rem;
+}
+.Table img{
+width: 80px;
+height: 80px;
+}
+h4{font-size: 40px;}
+.Creator-Detail h1{
+font-size: 22px;
+font-weight: 400;
+margin-left: 5rem;
+margin-top:-2.3rem;
+}
+.Creator-Detail img{width: 50px;
+height: 50px;}
